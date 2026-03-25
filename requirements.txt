@@ -1,0 +1,15 @@
+# Python 3.10.14
+# NumPy is constrained to <2 because torch 1.13.1 / torchvision 0.14.1 / kornia 0.7.3 warn with NumPy 2.x at import time.
+
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+kornia==0.7.3
+matplotlib==3.9.2
+numpy<2
+opencv-python==4.11.0.86
+openpyxl==3.1.5
+pandas==2.2.2
+Pillow==10.4.0
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+tqdm==4.66.5
